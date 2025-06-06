@@ -65,7 +65,7 @@ class PantallaFinanzas extends StatelessWidget {
             Text("Movimientos", style: TextStyle(fontSize: 18, color: const Color.fromARGB(255, 2, 2, 3), fontWeight: FontWeight.bold)),
             SizedBox(height: 10),
 
-            movimiento("04/06/2025", "Ingreso por proyecto", "1,500.00", Colors.black),
+            movimiento("04/06/2025", "Ingreso por el proyecto", "1,500.00", Colors.black),
             movimiento("05/06/2025", "Pago universidad", "800.00", Colors.red),
             movimiento("05/06/2025", "Pago de luz", "120.00", Colors.red),
           ],
@@ -74,6 +74,7 @@ class PantallaFinanzas extends StatelessWidget {
 
       
       floatingActionButton: FloatingActionButton(
+
         onPressed: () {},
         backgroundColor: const Color.fromARGB(255, 51, 165, 231),
         child: Text("Nuevo", style: TextStyle(fontSize: 15)),
